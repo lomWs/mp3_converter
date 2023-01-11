@@ -135,7 +135,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 <!-- LICENSE -->
 ## License
 
-Distributed under the GNU General Public License v3.0 License. See <a href="LICENSE.txt">`LICENSE.txt`</a> for more information.
+Distributed under the GNU General Public License v3.0 License. See <a href="https://github.com/lomWs/mp3_converter/blob/main/LICENSE">`LICENSE.txt`</a> for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
