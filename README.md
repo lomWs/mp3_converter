@@ -79,8 +79,8 @@ Use the `BLANK_README.md` to get started.
 ### Built With
 
 * [![Python][Python]][Python-url]
-* [![Selenium][Selenium]][Selenium-url]
-* [![CustomTK][CustomTK]][CustomTK-url]
+* [![Selenium][Selenium.py]][Selenium-url]
+* [![CustomTK][CustomTK.py]][CustomTK-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,7 +177,7 @@ A few of helpful link
 
 [Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
-[Selenium]: https://img.shields.io/badge/Selenium-DD0031?style=for-the-badge&logo=python&logoColor=white
+[Selenium.py]: https://img.shields.io/badge/Selenium-DD0031?style=for-the-badge&logo=python&logoColor=white
 [Selenium-url]: https://www.selenium.dev
-[CustomTK]: https://img.shields.io/badge/CustomTkinter-000000?style=for-the-badge&logo=python&logoColor=white
+[CustomTK.py]: https://img.shields.io/badge/CustomTkinter-000000?style=for-the-badge&logo=python&logoColor=white
 [CustomTK-url]: https://github.com/TomSchimansky/CustomTkinter
