@@ -100,6 +100,7 @@ Use the `BLANK_README.md` to get started.
    ```sh
      pip install selenium
      pip install customtkinder
+     pip install webdriver-manager
    ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
