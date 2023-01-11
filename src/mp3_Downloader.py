@@ -1,5 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager #automatic driver installation
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
@@ -8,7 +10,7 @@ import os.path
 from  threading import Thread
 
 #GLOBAL CONSTANT
-CHROME_DRIVER_PATH = "C:\Program Files (x86)\Selinium\chromedriver.exe"
+
 YOUTUBE_LINK = "https://www.youtube.com/results?search_query="
 CONVERTER_LINK = "https://notube.li/it/youtube-app-v20"
 
@@ -27,8 +29,10 @@ class Mp3_Downloader(Thread):#using subclass
         self.download_path = download_path
         self.song = ""
         options  = self.set_option()
-        self.driver = webdriver.Chrome(CHROME_DRIVER_PATH)
-        
+        #automatic driver installation
+        chrome_driver = ChromeDriverManager().install()
+        self.driver = webdriver.Chrome(service = Service(chrome_driver))
+             
         self.driver = webdriver.Chrome(options=options)
         
            
