@@ -126,8 +126,6 @@ Distributed under the GNU General Public License v3.0 License. See <a href="http
 <!-- CONTACT -->
 ## Contact
 
-Roberto Scandale - [@roberto_scandale](https://www.instagram.com/roberto_scandale) 
-
 Project Link: [https://github.com/lomWs/mp3_converter](https://github.com/lomWs/mp3_converter)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
